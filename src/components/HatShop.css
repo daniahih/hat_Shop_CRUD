@@ -1,0 +1,63 @@
+/* src/HatShop.css */
+.hat-shop {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.hat-shop h1 {
+  color: #4caf50;
+  font-size: 2.5em;
+}
+
+.hat-shop input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px;
+}
+
+.hat-shop button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hat-shop button:hover {
+  background-color: #45a049;
+}
+
+.hat-shop ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hat-shop li {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.hat-shop li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hat-shop li img.hat-image {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.hat-shop li button {
+  background-color: #ff4d4d;
+}
+
+.hat-shop li button:hover {
+  background-color: #ff1a1a;
+}
